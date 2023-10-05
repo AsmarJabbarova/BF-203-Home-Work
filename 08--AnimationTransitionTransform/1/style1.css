@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+}
+.container{
+    background-color: aliceblue;
+    border: 3px solid pink;
+    width: 1000px;
+    height: 500px;
+
+}
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: pink;
+    transition: all 3s;
+    
+    
+}
+.box2{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(222, 18, 52);
+    
+}
+.box:hover{
+    animation-name: move;
+    animation-duration: 4s;
+    animation-fill-mode: backwards;
+    
+    
+}
+.box2:hover{
+    animation-name: move2;
+    animation-duration: 4s;
+    animation-fill-mode: backwards;
+    
+}
+
+@keyframes move {
+    from{
+width: 150px;
+    }
+    to {
+        width: 500px;
+    }
+}
+@keyframes move2 {
+    from{
+        width: 150px;
+    }
+    to{
+        width: 500px; ;
+    }
+}
