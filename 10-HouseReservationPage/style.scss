@@ -1,0 +1,385 @@
+.header{
+    background: #004274;
+    .items{
+        display: flex;
+        margin-left: 50px;
+      
+    }
+    .logo{
+        padding: 8px;
+    }
+    .nav-menu li{
+        list-style: none;
+        margin-right: 20px;
+        font-size: 20px;
+    }
+    .nav-menu{
+        display: flex;
+    }
+    .nav-menu a{
+        text-decoration: none;
+        color: white;
+    }
+    .call{
+        display: flex;
+        justify-content: space-around;
+        margin-left: 200px;
+        h4{
+            color: white;
+        }
+        a{
+            background: #00AEFF;
+            border: none;
+            color: white;
+            width: 100px;
+            height: 40px;
+            text-decoration: none;
+            font-size: 23px;
+            padding: 9px;
+            margin-left: 25px;
+       
+        }
+    }
+}
+
+@mixin bottom{
+    display: flex;
+    margin-left: 200px;
+    margin-top: 40px;
+    i{
+        position: relative;
+        left: 20px;
+        top: 10px;
+    }
+    input{
+        width: 300px;
+        height: 30px;
+        padding-left: 25px;
+    }
+    span{
+        margin-left: 60px;
+        font-size: 20px;
+        border: 1px solid gray;
+        padding: 18px
+
+    }
+    .search{
+        margin-left: 20px;
+    
+        font-size: 20px;
+        button{
+            width: 100%;
+            height: 45px;
+            background: #004274;
+            text-align: center;
+            color: #fff;
+            font-size: 18px;
+            border-radius: 4px;
+            padding: 11px;
+           margin-top: -10px
+      
+        }
+    
+    }
+
+}
+.headbottom{
+    @include bottom;
+}
+
+.about {
+    
+    .image img{
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    position: absolute;
+    }
+    .text{
+        position: relative;
+        bottom: 385px;
+        margin-left: 100px;
+        color: white;
+        font-size: 20px;
+    }
+    button{
+        background: #00AEFF;
+        padding: 20px 29px;
+        color: #fff ;
+        display: inline-block;
+        font-size: 18px ;
+        border: none;
+        margin-top: 20px;
+        border-radius: 10px;
+
+    }
+
+}
+
+.advertisment{
+    position: relative;
+    bottom: 200px;
+    h2{
+        text-align: center;
+    }
+    p{
+        text-align: center;
+        color: gray;
+    }
+    .card{
+        padding: 20px;
+        img{
+            width: 100%;
+        }
+        p{
+            text-align: inherit;
+        }
+        span{
+            font-size: 16px;
+            color: #00AEFF;
+        }
+    }
+    @mixin borders{
+        border:  1px solid gray;
+        width: 27%;
+    }
+   .box1{
+    @include borders
+   }
+   .box2{
+    @include borders
+   }
+   .box3{
+    @include borders
+   }
+   
+    .cards{
+        display: flex;
+        justify-content: space-around;
+    }
+
+}
+
+.service {
+      img{
+        width: 100%;
+      }
+      h2{
+        position: relative;
+        bottom: 311px;
+        text-align: center;
+        color: white;
+        font-size: 26px;
+      }
+     @mixin text{
+        position: relative;
+        bottom: 300px;
+        margin-left: 66px;
+        color: white;
+        background-color: #00AEFF;
+        // display: inline-block;
+        width: 100%;
+        height: 150px;
+        padding: 9px;
+        padding-left: 17px;
+        margin-left:110px ;
+        text-align: center;
+  
+      
+      }
+      .about{
+        @include text;
+        i{
+            font-size: 30px;
+        }
+      }
+      .parts{
+        display: flex;
+      }
+   
+
+}
+
+.properties{
+    background: #F2F4F8;
+    padding: 50px;
+   .parts{
+    display: flex;
+    justify-content: space-around;
+   }
+   .left{
+    font-size: 20px;
+   }
+    button{
+        border: none;
+        font-size: 22px;
+        height: 40px;
+        background-color: #00AEFF;
+        color: white;
+        border-radius: 10px;
+    }
+    .right{
+        margin-left: 120px;
+        display: flex;
+        
+        .box{
+            text-align: center;
+            margin-left: 40px;
+            background-color: white;
+            padding: 45px;
+            height: 131px;
+            margin-top: 30px;
+          h3{
+            font-size: 16px;
+          }
+        }
+      
+    }
+}
+.agents{
+    margin-top: 150px;
+    img{
+        width: 250px;
+    }
+    .about{
+        text-align: center;
+        h2{
+            font-size: 30px;
+        }
+        p{
+            color: gray;
+            font-size: 20px;
+        }
+    }
+    .txt{
+        width: 264px;
+        text-align: center;
+        p{
+            color: gray;
+        }
+        h3{
+            color: #33384e;
+            font-weight: 500;
+            font-size: 22px;
+        }
+    }
+    .people{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.subscribe {
+    margin-top: 160px;
+    display: flex;
+    background-color: #004274;
+    .left{
+   padding: 30px;
+   color: white;
+   margin-top: 30px;
+   h1{
+    font-size: 30px;
+    color: #ffff;
+    line-height: 1.7;
+    font-size: 18px;
+   }
+   input{
+    border: none;
+    font-size: 16px;
+   }
+   button{
+    background: #00AEFF;
+    padding: 10px 30px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 4px;
+   }
+   hr{
+    width: 200px;
+    margin-left: 0px;
+    margin-top: 17px;
+   }
+    }
+    .right{
+        img{
+            width: 100%;
+        }
+    }
+}
+
+.footer{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-around;
+    .part1{
+        padding: 40px;
+        p{
+            color: gray;
+        }
+    }
+    .navigation{
+        h4{
+            margin-left: 20px;
+            font-size: 20px;
+        }
+        li{
+            list-style: none;
+            margin-top: 20px;
+            color: gray;
+
+        }
+    }
+    .services{
+        h4{
+            margin-left: 20px;
+            font-size: 20px;
+        }
+        li{
+            list-style: none;
+            margin-top: 20px;
+            color: gray;
+
+        }
+    }
+    .support{
+       
+        h4{
+            margin-left: 25px;
+            font-size: 20px;
+        }
+        li{
+            list-style: none;
+            margin-top: 20px;
+            color: gray;
+
+        }
+    }
+    .contact{
+        
+        h4{
+            margin-left: 25px;
+            font-size: 20px;
+        }
+        li{
+            list-style: none;
+            margin-top: 20px;
+            color: gray;
+
+        }
+    }
+
+}
+.copyright{
+    p{
+        text-align: center;
+        margin-top: 100px;
+    }
+    i{
+     color: #00AEFF;
+    }
+    span{
+        color: #00AEFF;
+    }
+
+}
