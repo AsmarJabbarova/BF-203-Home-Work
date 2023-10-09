@@ -1,0 +1,75 @@
+.footer{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-around;
+    .part1{
+        padding: 40px;
+        p{
+            color: gray;
+        }
+    }
+    .navigation{
+        h4{
+            margin-left: 20px;
+            font-size: 20px;
+        }
+        li{
+            list-style: none;
+            margin-top: 20px;
+            color: gray;
+
+        }
+    }
+    .services{
+        h4{
+            margin-left: 20px;
+            font-size: 20px;
+        }
+        li{
+            list-style: none;
+            margin-top: 20px;
+            color: gray;
+
+        }
+    }
+    .support{
+       
+        h4{
+            margin-left: 25px;
+            font-size: 20px;
+        }
+        li{
+            list-style: none;
+            margin-top: 20px;
+            color: gray;
+
+        }
+    }
+    .contact{
+        
+        h4{
+            margin-left: 25px;
+            font-size: 20px;
+        }
+        li{
+            list-style: none;
+            margin-top: 20px;
+            color: gray;
+
+        }
+    }
+
+}
+.copyright{
+    p{
+        text-align: center;
+        margin-top: 100px;
+    }
+    i{
+     color: #00AEFF;
+    }
+    span{
+        color: #00AEFF;
+    }
+
+}

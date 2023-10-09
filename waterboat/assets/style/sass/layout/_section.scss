@@ -1,0 +1,186 @@
+.items{
+    background: #1089ff;
+    ul{
+        display: flex;
+        justify-content: center;
+        padding: 30px;
+        .first{
+            border-bottom: 3px solid white;
+        }
+        li{
+            list-style: none;
+            margin-left: 20px;
+            
+            a{
+                color: white;
+                font-size: 20px;
+                text-decoration: none;
+            }
+           
+        }
+        
+        
+    }
+}
+.about{
+    .image{
+        img{
+            width: 100%;
+            height: 900px;
+        }
+    }
+    .text{
+        position: relative;
+        bottom: 500px;
+        text-align: center;
+        color: white;
+        a{
+            text-decoration: none;
+            background: #1089ff;
+            color: white;
+            padding: 17px;
+            padding-left: 30px;
+            position: relative;
+            top: 20px;
+        }
+        h1{
+            font-size: 50px;
+        }
+        p{
+            font-size: 20px;
+        }
+    }
+    .about{
+        margin-bottom: 90px;
+    }
+
+
+}
+.welcome{
+
+    .left{
+        img{
+            width: 100%;
+        }
+    }
+    .text{
+        h3{
+            font-family: "Dancing Script", sans-serif;
+            color: #1089ff;
+        }
+        h1{
+            font-size: 26px;
+            font-weight: 700;
+        }
+        p{
+            color: gray;
+            margin-top: 60px;
+            font-size: 17px;
+        }
+    }
+}
+
+ .section4{
+.icons {
+    margin-top: 100px;
+    display: flex;
+    padding-left: 20px;
+  }
+  .icons .part {
+    margin-left: 100px;
+  }
+  .icons .part i {
+    font-size: 50px;
+    color: #1089ff;
+  }
+  .icons .part h3 {
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  .icons .part p {
+    color: gray;
+  }
+}
+
+.section4{
+    margin-top: 100px;
+}
+
+.advertisment{
+    position: relative;
+    bottom: 200px;
+    h2{
+        text-align: center;
+    }
+    p{
+        text-align: center;
+        color: gray;
+    }
+    .card{
+        padding: 20px;
+        img{
+            width: 100%;
+        }
+        p{
+            text-align: inherit;
+        }
+        span{
+            font-size: 16px;
+            color: #00AEFF;
+        }
+    }
+    @mixin borders{
+        border:  1px solid gray;
+        width: 27%;
+    }
+   .box1{
+    @include borders
+   }
+   .box2{
+    @include borders
+   }
+   .box3{
+    @include borders
+   }
+   
+    .cards{
+        display: flex;
+        justify-content: space-around;
+    }
+
+}
+.section5{
+    margin-top: 700px;
+}
+.agents{
+    margin-top: 150px;
+    img{
+        width: 250px;
+    }
+    .about{
+        text-align: center;
+        h2{
+            font-size: 30px;
+        }
+        p{
+            color: gray;
+            font-size: 20px;
+        }
+    }
+    .txt{
+        width: 264px;
+        text-align: center;
+        p{
+            color: gray;
+        }
+        h3{
+            color: #33384e;
+            font-weight: 500;
+            font-size: 22px;
+        }
+    }
+    .people{
+        display: flex;
+        justify-content: center;
+    }
+}
