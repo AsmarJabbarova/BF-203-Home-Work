@@ -1,4 +1,4 @@
-.items{
+    .items{
     background: #1089ff;
     ul{
         display: flex;
@@ -22,7 +22,7 @@
         
     }
 }
-.about{
+.about{ 
     .image{
         img{
             width: 100%;
@@ -50,9 +50,9 @@
             font-size: 20px;
         }
     }
-    .about{
-        margin-bottom: 90px;
-    }
+    // .about{
+    //     margin-bottom: 90px;
+    // }
 
 
 }
@@ -64,6 +64,7 @@
         }
     }
     .text{
+        margin-left: 7%;
         h3{
             font-family: "Dancing Script", sans-serif;
             color: #1089ff;
@@ -126,31 +127,65 @@
         }
         span{
             font-size: 16px;
-            color: #00AEFF;
+            background-color: #00AEFF;
+            display: flex;
+            width: 61px;
+            height: 27px;
+            color: white;
+            border-radius: 3px;
+            justify-content: center;
+            align-items: center;    
+            
         }
     }
     @mixin borders{
-        border:  1px solid gray;
+        //      border:  1px solid gray;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
         width: 27%;
+        
+    }
+    @mixin card-body{
+        display: flex;
+        height: 69px;
+        align-items: center;
+        justify-content: space-around;
+
+       
+    
     }
    .box1{
-    @include borders
+    @include borders;
+    .card-body{
+        @include card-body;
+
+    }
+
    }
    .box2{
-    @include borders
+    @include borders;
+    .card-body{
+        @include card-body;
+
+    }
    }
    .box3{
-    @include borders
+    @include borders;
+    .card-body{
+        @include card-body;
+
+    }
    }
    
     .cards{
         display: flex;
         justify-content: space-around;
     }
-
+.row{
+    margin-top: 25px;
+}
 }
 .section5{
-    margin-top: 700px;
+    margin-top: 20%;
 }
 .agents{
     margin-top: 150px;
