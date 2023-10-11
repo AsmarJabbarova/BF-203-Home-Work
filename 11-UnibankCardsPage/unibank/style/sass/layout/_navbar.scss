@@ -1,0 +1,42 @@
+.container{
+    width: 1176px   ;
+}
+.navbarr{
+    margin-top: 30px;
+    .row{
+        align-items: center;
+        .col-8{
+            display: flex;
+            .col-2{
+                line-height: 18px;
+                font-family: CocoSharp,Arial;
+                font-weight: 700;
+                font-size: 18px;
+                text-transform: capitalize;
+
+            }
+        }
+        .col-4{
+            display: flex;
+            justify-content: flex-end;
+            span{
+                display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    border: 1px solid rgba(0,0,0,.1);
+    font-weight: 600;
+    height: 45px;
+    width: 76px;
+    border-radius: 25px;
+    svg{
+        color: #ff6b00;
+    }
+            }
+        }
+    }
+     
+    
+   
+}

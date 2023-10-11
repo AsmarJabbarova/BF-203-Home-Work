@@ -1,0 +1,397 @@
+.kartlar, .debet, .diger {
+  margin-top: 30px;
+}
+.kartlar p, .debet p, .diger p {
+  margin-bottom: 30px;
+  color: #FF6400;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 32px;
+}
+
+.esas-kart {
+  background: #fafafa;
+  border-radius: 10px;
+  padding: 50px 65px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.esas-kart .row {
+  width: 100%;
+}
+.esas-kart .col-5 img {
+  width: 315px;
+  height: 199px;
+}
+.esas-kart .col-7 .etrafli {
+  display: flex;
+  justify-content: space-between;
+}
+.esas-kart .col-7 .etrafli .ucard {
+  font-weight: 800;
+  color: #000;
+  line-height: 30px;
+  font-size: 24px;
+}
+.esas-kart .col-7 .etrafli span {
+  display: flex;
+  padding: 14px 29px;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 14px;
+  line-height: 14px;
+  background: #FF6400;
+  border-radius: 25px;
+  box-shadow: 0 10px 10px -10px rgba(255, 107, 0, 0.51);
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center !important;
+  width: 141px;
+  height: 49px;
+}
+.esas-kart .col-7 .metin p {
+  font-family: CocoSharp, Arial;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  margin-bottom: 25px;
+}
+.esas-kart .col-7 .kreditler {
+  display: flex;
+  gap: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+.esas-kart .col-7 .kreditler svg {
+  width: 34px;
+  height: 34px;
+  color: #ff6b00;
+}
+.esas-kart .col-7 .kreditler div {
+  font-family: CocoSharp, Arial;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: normal;
+  color: #000;
+  text-align: left;
+}
+.esas-kart .col-7 .kreditler div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.siyahi .cart {
+  flex-direction: column;
+  background: #fafafa;
+  border-radius: 10px;
+  padding: 50px 65px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.siyahi .cart .cartfoto img {
+  width: 315px;
+  height: 199px;
+}
+.siyahi .cart .melumat {
+  margin-top: 25px;
+}
+.siyahi .cart .melumat .visa {
+  font-weight: 800;
+  color: #000;
+  line-height: 30px;
+  font-size: 24px;
+}
+.siyahi .cart .melumat .more {
+  font-family: CocoSharp, Arial;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  margin-bottom: 25px;
+}
+.siyahi .cart .melumat .duymeler {
+  display: flex;
+  gap: 19px;
+}
+.siyahi .cart .melumat .duyme span {
+  display: flex;
+  padding: 14px 29px;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 14px;
+  line-height: 14px;
+  background: #FF6400;
+  border-radius: 25px;
+  box-shadow: 0 10px 10px -10px rgba(255, 107, 0, 0.51);
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center !important;
+  width: 141px;
+  height: 49px;
+}
+.siyahi .cart .melumat .partnyor {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: #969696;
+  padding: 16px 25px;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 14px;
+  border-radius: 25px;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center !important;
+  width: 141px;
+  height: 49px;
+}
+
+.footer {
+  margin-top: 75px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer .basliq {
+  text-decoration: none;
+  font-family: CocoSharp, Arial;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: normal;
+  color: #000;
+  text-align: left;
+}
+.footer .alt-menyu {
+  margin-top: 10px;
+}
+.footer .alt-menyu div {
+  font-size: 12px;
+  color: #000;
+  line-height: 35px;
+  text-decoration: none;
+  font-weight: 400;
+  font-family: CocoSharp, Arial;
+}
+
+.alt-footer {
+  border-bottom: 1px solid #D6D9DB;
+  padding-bottom: 25px;
+  margin-top: 21px;
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+.alt-footer span {
+  display: flex;
+  border-radius: 50%;
+  background-color: #FF6400;
+  width: 26px;
+  height: 26px;
+  justify-content: center;
+  align-items: center;
+}
+.alt-footer span svg {
+  color: white;
+}
+.alt-footer .iconlar {
+  display: flex;
+  justify-content: space-between;
+  width: 32%;
+}
+
+.container {
+  width: 1176px;
+}
+
+.navbarr {
+  margin-top: 30px;
+}
+.navbarr .row {
+  align-items: center;
+}
+.navbarr .row .col-8 {
+  display: flex;
+}
+.navbarr .row .col-8 .col-2 {
+  line-height: 18px;
+  font-family: CocoSharp, Arial;
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+.navbarr .row .col-4 {
+  display: flex;
+  justify-content: flex-end;
+}
+.navbarr .row .col-4 span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  font-weight: 600;
+  height: 45px;
+  width: 76px;
+  border-radius: 25px;
+}
+.navbarr .row .col-4 span svg {
+  color: #ff6b00;
+}
+
+.kartlar, .debet, .diger {
+  margin-top: 30px;
+}
+.kartlar p, .debet p, .diger p {
+  margin-bottom: 30px;
+  color: #FF6400;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 32px;
+}
+
+.esas-kart {
+  background: #fafafa;
+  border-radius: 10px;
+  padding: 50px 65px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.esas-kart .row {
+  width: 100%;
+}
+.esas-kart .col-5 img {
+  width: 315px;
+  height: 199px;
+}
+.esas-kart .col-7 .etrafli {
+  display: flex;
+  justify-content: space-between;
+}
+.esas-kart .col-7 .etrafli .ucard {
+  font-weight: 800;
+  color: #000;
+  line-height: 30px;
+  font-size: 24px;
+}
+.esas-kart .col-7 .etrafli span {
+  display: flex;
+  padding: 14px 29px;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 14px;
+  line-height: 14px;
+  background: #FF6400;
+  border-radius: 25px;
+  box-shadow: 0 10px 10px -10px rgba(255, 107, 0, 0.51);
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center !important;
+  width: 141px;
+  height: 49px;
+}
+.esas-kart .col-7 .metin p {
+  font-family: CocoSharp, Arial;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  margin-bottom: 25px;
+}
+.esas-kart .col-7 .kreditler {
+  display: flex;
+  gap: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+.esas-kart .col-7 .kreditler svg {
+  width: 34px;
+  height: 34px;
+  color: #ff6b00;
+}
+.esas-kart .col-7 .kreditler div {
+  font-family: CocoSharp, Arial;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: normal;
+  color: #000;
+  text-align: left;
+}
+.esas-kart .col-7 .kreditler div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.siyahi .cart {
+  flex-direction: column;
+  background: #fafafa;
+  border-radius: 10px;
+  padding: 50px 65px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.siyahi .cart .cartfoto img {
+  width: 315px;
+  height: 199px;
+}
+.siyahi .cart .melumat {
+  margin-top: 25px;
+}
+.siyahi .cart .melumat .visa {
+  font-weight: 800;
+  color: #000;
+  line-height: 30px;
+  font-size: 24px;
+}
+.siyahi .cart .melumat .more {
+  font-family: CocoSharp, Arial;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  margin-bottom: 25px;
+}
+.siyahi .cart .melumat .duymeler {
+  display: flex;
+  gap: 19px;
+}
+.siyahi .cart .melumat .duyme span {
+  display: flex;
+  padding: 14px 29px;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 14px;
+  line-height: 14px;
+  background: #FF6400;
+  border-radius: 25px;
+  box-shadow: 0 10px 10px -10px rgba(255, 107, 0, 0.51);
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center !important;
+  width: 141px;
+  height: 49px;
+}
+.siyahi .cart .melumat .partnyor {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: #969696;
+  padding: 16px 25px;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 14px;
+  border-radius: 25px;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center !important;
+  width: 141px;
+  height: 49px;
+}/*# sourceMappingURL=main.css.map */

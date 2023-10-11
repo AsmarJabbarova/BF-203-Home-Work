@@ -1,0 +1,168 @@
+@mixin main-topic{
+    font-weight: 800;
+    color: #000;
+    line-height: 30px;
+    font-size: 24px;
+}
+@mixin little-text{
+    
+    font-family: CocoSharp,Arial;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: normal;
+    color: #000;
+    text-align: left;
+}
+
+@mixin background{
+    
+    background: #fafafa;
+    border-radius: 10px;
+    padding: 50px 65px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+@mixin duyme{
+    display: flex;
+    padding: 14px 29px;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 14px;
+    line-height: 14px;
+    background: #FF6400;
+    border-radius: 25px;
+    box-shadow: 0 10px 10px -10px rgb(255 107 0 / 51%);
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center!important;
+    width: 141px;
+    height: 49px;
+}
+@mixin normal-text{
+    font-family: CocoSharp,Arial;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+
+.kartlar,.debet,.diger{
+    margin-top: 30px;
+    p{
+        margin-bottom: 30px;
+        color: #FF6400;
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 32px;
+    }
+}
+
+
+.esas-kart{
+ @include background();
+    .row{
+        width: 100%;
+    }
+    .col-5{
+        img{
+            width: 315px;
+            height: 199px;
+        }
+    }
+
+    .col-7{
+        .etrafli{
+            display: flex;
+            justify-content: space-between;
+            .ucard{
+                @include main-topic
+            }
+
+            span{
+              @include duyme()
+            }
+        }
+        .metin{
+            p{
+                @include normal-text()
+            }
+        }
+        .kreditler{
+            display: flex;
+            gap: 10%;
+            svg{
+                width: 34px;
+                height: 34px;
+                color: #ff6b00;
+            }
+            display: flex;
+            justify-content: space-between;
+
+            div{
+                @include little-text
+            }
+            div{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+            }
+        }
+        
+    }
+}
+
+.siyahi{
+ .cart{
+    flex-direction: column;
+    @include background();
+    .cartfoto{
+        img{
+            width: 315px;
+            height: 199px;
+        }
+    }
+    .melumat{
+        margin-top: 25px;
+        .visa{
+            @include main-topic()
+        }
+        .more{
+            @include normal-text()
+        }
+        .duymeler{
+            display: flex;
+            gap: 19px;
+        }
+        .duyme{
+            
+            span{
+                @include duyme()
+            }
+        }
+        .partnyor{
+            border: 1px solid rgba(0,0,0,.1);
+            color: #969696;
+            padding: 16px 25px;
+            font-size: 14px;
+            line-height: 16px;
+
+
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            font-size: 14px;
+            border-radius: 25px;
+            font-weight: 600;
+            text-decoration: none;
+            text-align: center!important;
+            width: 141px;
+            height: 49px;
+        
+
+    }
+}
+
+ }
+}

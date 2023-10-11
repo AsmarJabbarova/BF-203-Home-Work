@@ -1,0 +1,52 @@
+@import './section';
+
+@mixin footer-text{
+    font-size: 12px;
+    color: #000;
+    line-height: 35px;
+    text-decoration: none;
+    font-weight: 400;
+    font-family: CocoSharp,Arial;
+}
+.footer{
+    margin-top: 75px;
+    display: flex;
+    justify-content: space-between; 
+    .basliq{
+        text-decoration: none;
+        @include little-text();
+    }
+    .alt-menyu{
+        margin-top: 10px;
+        div{
+            @include footer-text();
+        }
+    }
+}
+
+.alt-footer{
+    border-bottom: 1px solid #D6D9DB;
+    padding-bottom: 25px;
+    margin-top: 21px;
+    margin-bottom: 24px;
+
+    display: flex;
+    justify-content: space-between;
+    span{
+        display: flex;
+        border-radius: 50%;
+        background-color: #FF6400;
+        width: 26px;
+        height: 26px;
+        justify-content: center;
+        align-items: center;
+        svg{
+            color: white;
+        }
+    }
+    .iconlar{
+        display: flex;
+    justify-content: space-between;
+    width: 32%;
+    }
+}
