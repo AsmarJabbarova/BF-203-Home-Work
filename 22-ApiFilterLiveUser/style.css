@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  h2 {
+    font-family: "Poppins";
+    font-size: 30px;
+    color: white;
+  }
+  .cards {
+    width: 500px;
+    border: 1px solid grey;
+    box-shadow: rgba(7, 7, 7, 0.15) 1.95px 1.95px 2.6px;
+  }
+  .header {
+    padding: 20 20px;
+    background-color: rgb(13, 51, 126);
+   
+  }
+  
+ 
+  span {
+    color: white;
+  }
+  
+  
+  .card{
+    display: flex;
+    gap: 20px;
+  }
+ 
+  .inputSearch {
+    border-radius: 5%;
+    width: 100%;
+    margin-top: 10px;
+    background-color: rgb(1, 1, 42);
+  }
+    .mainDiv {
+      padding: 10px;
+    }
+  
+  img {
+    height: 10%;
+    width: 10%;
+    border-radius:  39%;
+    padding-top: 10px;
+  }
+  body{
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+  }
