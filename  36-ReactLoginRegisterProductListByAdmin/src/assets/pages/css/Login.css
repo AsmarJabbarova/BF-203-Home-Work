@@ -1,0 +1,14 @@
+.mylogin {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.mylogin .group {
+  display: flex;
+  flex-direction: column;
+  height: 56vh;
+  justify-content: space-evenly;
+}
+.mylogin .group div input {
+  width: 574px;
+  height: 36px;
+  border-radius: 7px;
+}/*# sourceMappingURL=Login.css.map */
