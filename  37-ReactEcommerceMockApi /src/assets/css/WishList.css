@@ -1,0 +1,24 @@
+.cardss {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding: 49px;
+  justify-content: center;
+  align-items: center;
+}
+.cardss .mycards {
+  position: relative;
+}
+.cardss span {
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 30px;
+  background-color: green;
+  border-radius: 2px;
+  color: white;
+  position: absolute;
+  right: 0;
+}/*# sourceMappingURL=WishList.css.map */
