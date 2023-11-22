@@ -1,0 +1,34 @@
+.section6 {
+  height: 350px;
+  width: 100%;
+  background-color: #2a809f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.section6 .buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+}
+.section6 .buttons .click a {
+  padding: 1.25rem 2.5rem;
+  background-color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  color: black;
+}
+.section6 .buttons .look a {
+  padding: 1.25rem 2.5rem;
+  background-color: #212529;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+}
+.section6 h2 {
+  margin-bottom: 1.5rem !important;
+  font-size: 2rem;
+  color: white;
+}/*# sourceMappingURL=section6.css.map */

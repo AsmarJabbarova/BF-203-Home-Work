@@ -1,0 +1,27 @@
+.section1 {
+  background: url("https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-masthead.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 552px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.section1 a {
+  padding: 1.25rem 2.5rem;
+  background-color: #1d809f;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+}
+.section1 h1 {
+  font-size: 5.5rem;
+  margin: 0;
+}
+.section1 h3 {
+  font-size: 1.75rem;
+}/*# sourceMappingURL=section1.css.map */

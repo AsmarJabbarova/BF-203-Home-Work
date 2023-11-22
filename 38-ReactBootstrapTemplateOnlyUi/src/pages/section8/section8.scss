@@ -1,0 +1,33 @@
+.boxes{
+    display: flex;
+    font-size: 60px;
+    justify-content: center;
+    gap: 20px;
+   
+    .box1 {
+        background-color: #1D809F;
+        color: white ;
+        border-radius: 40px;
+        height: 60px;
+    }
+    .box2 {
+        background-color: #1D809F;
+        color: white ;
+        border-radius: 40px;
+        height: 60px;
+    }
+    .box3 {
+        background-color: #1D809F;
+        color: white ;
+        border-radius: 40px;
+        height: 60px;
+    }
+
+  
+}
+.text{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+    color: grey;
+}

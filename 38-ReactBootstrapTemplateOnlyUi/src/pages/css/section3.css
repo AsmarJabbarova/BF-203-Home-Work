@@ -1,0 +1,59 @@
+.section3 {
+  height: 554px;
+  background-color: #2a809f;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.section3 .back {
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+}
+.section3 .ser h6 {
+  font-size: 1rem !important;
+  color: #d9b22b;
+  margin: 0;
+}
+.section3 .wht h1 {
+  font-size: 3rem !important;
+  color: #ffffff;
+  margin: 0;
+}
+.section3 .back {
+  margin-top: 30px;
+}
+.section3 .back .res {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section3 .back .res span {
+  background-color: #fff;
+  color: #1d809f;
+  height: 7rem;
+  width: 7rem;
+  display: block;
+  line-height: 7.5rem;
+  font-size: 2.25rem;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section3 .back .res h4 {
+  font-weight: bolder;
+  font-size: 1.5rem;
+  color: white;
+  margin: 0;
+  margin-top: 13px;
+}
+.section3 .back .res h6 {
+  color: #c2dae2;
+  font-size: 16px;
+  margin: 0;
+  margin-top: 10px;
+}/*# sourceMappingURL=section3.css.map */

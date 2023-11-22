@@ -1,0 +1,40 @@
+.section6 {
+  height: 350px;
+  width: 100%;
+  background-color: #2a809f;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    .click {
+      a {
+        padding: 1.25rem 2.5rem;
+        background-color: white;
+        border-radius: 5px;
+        text-decoration: none;
+        color: white;
+        color: black;
+      }
+    }
+    .look {
+      a {
+        padding: 1.25rem 2.5rem;
+        background-color: #212529;
+        border-radius: 5px;
+        text-decoration: none;
+        color: white;
+      }
+    }
+  }
+  h2 {
+    margin-bottom: 1.5rem !important;
+    font-size: 2rem;
+    color: white;
+  }
+}
