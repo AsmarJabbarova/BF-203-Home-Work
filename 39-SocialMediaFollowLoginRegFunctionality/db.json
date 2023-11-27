@@ -1,0 +1,52 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice_Adventurer",
+      "password": "wonderland123",
+      "friends": [],
+      "requests": []
+    },
+    {
+      "id": 2,
+      "name": "Bob_Bookworm",
+      "password": "novel456",
+      "friends": [],
+      "requests": []
+    },
+    {
+      "id": 3,
+      "name": "Charlie_Coder",
+      "password": "codeWizard321",
+      "friends": [],
+      "requests": []
+    },
+    {
+      "id": 4,
+      "name": "Diana_Dreamer",
+      "password": "dreamer_pass",
+      "friends": [],
+      "requests": []
+    },
+    {
+      "id": 5,
+      "name": "Ethan_Explorer",
+      "password": "explore22",
+      "friends": [],
+      "requests": []
+    },
+    {
+      "id": 6,
+      "name": "Fiona_Fashionista",
+      "password": "fashionista123",
+      "friends": [],
+      "requests": []
+    },
+    {
+      "name": "aygun",
+      "email": "aygun@gmail.com",
+      "password": "aygun2003",
+      "id": 7
+    }
+  ]
+}
